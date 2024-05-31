@@ -1,1 +1,42 @@
+#container{
+    height: 400px;
+    width: 400px;
+    background-color: aliceblue;
+    display: flex;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid aquamarine;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 50px;
+}
 
+
+
+
+#navbar{
+    height: 50px;
+    width: 900px;
+    background-color: palevioletred;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.option{
+    height: 50px; 
+    width: 80px;
+    font-size: 24px;
+    line-height: 50px;
+    border-radius: 10px; 
+    margin-left: 5px;
+}
